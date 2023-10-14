@@ -18,9 +18,6 @@ We've used this `builderbook` project to build:
 - [Async Labs](https://async-labs.com) - many custom dev projects
 
 
-## Live app:
-
-https://builderbook.org/books/builder-book/introduction
 
 
 ## Sponsors
@@ -465,83 +462,9 @@ You can contact us at team@builderbook.org
 If you are interested in working with us, check out [Async Labs](https://async-labs.com/).
 
 
-## License
-
-All code in this repository is provided under the [MIT License](https://github.com/async-labs/builderbook/blob/master/LICENSE.md).
 
 
-## Project structure
 
-```
-.
-├── .vscode
-│   ├── extensions.json
-│   ├── settings.json
-├── book
-├── builderbook
-│   ├── .elasticbeanstalk
-│   │   ├── config.yml
-│   ├── components
-│   │   ├── admin
-│   │   │   ├── EditBook.jsx
-│   │   ├── customer
-│   │   │   ├── BuyButton.jsx
-│   │   ├── Header.jsx
-│   │   ├── MenuWithAvatar.jsx                   
-│   │   ├── Notifier.jsx
-│   │   ├── SharedStyles.js
-├── lib
-│   ├── api
-│   │   ├── admin.js
-│   │   ├── customer.js
-│   │   ├── getRootURL.js
-│   │   ├── public.js
-│   │   ├── sendRequest.js
-│   ├── notify.js
-│   ├── theme.js
-│   ├── withAuth.jsx
-├── pages
-│   ├── admin
-│   │   ├── add-book.jsx
-│   │   ├── book-detail.jsx
-│   │   ├── edit-book.jsx
-│   │   ├── index.jsx
-│   ├── customer
-│   │   ├── my-books.jsx
-│   ├── public
-│   │   ├── login.jsx
-│   │   ├── read-chapter.jsx
-│   ├── _app.jsx
-│   ├── _document.jsx
-│   ├── index.jsx
-├── public
-│   ├── robots.txt
-├── server
-│   ├── api
-│   │   ├── admin.js
-│   │   ├── customer.js
-│   │   ├── index.js
-│   │   ├── public.js
-│   ├── models
-│   │   ├── Book.js
-│   │   ├── Chapter.js
-│   │   ├── EmailTemplate.js
-│   │   ├── Purchase.js
-│   │   ├── User.js
-│   ├── utils
-│   │   ├──slugify.js
-│   ├── app.js
-│   ├── aws.js
-│   ├── github.js
-│   ├── google.js
-│   ├── logger.js
-│   ├── mailchimp.js
-│   ├── routesWithSlug.js
-│   ├── sitemapAndRobots.js
-│   ├── stripe.js
-├── test/server/utils
-│   ├── slugify.test.js
-├── .eslintrc.js
 ├── .gitignore
 ├── package.json
 ├── yarn.lock
